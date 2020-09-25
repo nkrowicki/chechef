@@ -3,14 +3,14 @@ import { Provider } from "react-redux";
 import store from './store/store'
 
 import "./styles/styles.scss";
-import styles from "./ChecheffApp.module.scss";
+import AppRouter from "./routers/AppRouter";
+// import styles from "./ChecheffApp.module.scss";
 
 const ChecheffApp = () => {
   return (
     <Provider store={store}>
-        <div className={styles.app}>
-            <h1>Nahuel Krowicki</h1>
-        </div>
+        {/* <div className={styles.app}> */}
+      <AppRouter />
     </Provider>
   );
 };

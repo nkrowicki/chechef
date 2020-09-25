@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
+import LoginScreen from '../components/auth/LoginScreen';
 
 const AuthRouter = () => {
     return (
         <div>
-            <h1>Auth Router!</h1>
+            <Switch>
+                <Route
+                    exact
+                    path='/auth/login'
+                    component={LoginScreen}
+                    />
+                <Redirect to='/' />
+            </Switch>
         </div>
     )
 }

@@ -7,8 +7,15 @@ module.exports = {
   output: {
     filename: "bundle.[hash].js",
     path: path.resolve(__dirname, "dist"),
+    publicPath: '/'// To solve problem with routes
   },
-  mode: "production",
+  devServer: {
+    contentBase: "./dist",
+    disableHostCheck: true,
+    stats: { colors: true },
+    historyApiFallback: true, 
+  },
+  mode: "development",
   module: {
     rules: [
       {
@@ -41,11 +48,7 @@ module.exports = {
       },
       {
         test: /\.s[ac]ss$/i,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
-        ],
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
     ],
   },
