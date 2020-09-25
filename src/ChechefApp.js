@@ -4,9 +4,9 @@ import store from './store/store'
 
 import "./styles/styles.scss";
 import AppRouter from "./routers/AppRouter";
-// import styles from "./ChecheffApp.module.scss";
+// import styles from "./ChechefApp.module.scss";
 
-const ChecheffApp = () => {
+const ChechefApp = () => {
   return (
     <Provider store={store}>
         {/* <div className={styles.app}> */}
@@ -15,4 +15,4 @@ const ChecheffApp = () => {
   );
 };
 
-export default ChecheffApp;
+export default ChechefApp;

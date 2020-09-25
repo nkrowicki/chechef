@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Redirect } from "react-router-dom";
 import PublicRoute from "./PublicRoute";
 import AuthRouter from "./AuthRouter";
 import PrivateRoute from "./PrivateRoute";
-import ChecheffScreen from "../components/checheff/ChecheffScreen";
+import ChechefScreen from "../components/chechef/ChechefScreen";
 import { useDispatch } from "react-redux";
 import Spinner from "../components/spinner/Spinner";
 
@@ -35,7 +35,7 @@ const AppRouter = () => {
           <PrivateRoute
             exact
             path="/"
-            component={ChecheffScreen}
+            component={ChechefScreen}
             isAuthenticated={isLoggedIn}
           />
           <Redirect to={"/auth/login"} />

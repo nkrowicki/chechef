@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
+
+
+.logo {
+  font-size: 3.5rem;
+  user-select: none;
+}
+
+.logo .letra {
+  display: inline-block;
+  animation: float 0.5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: none;
+  }
+  33% {
+    transform: translateY(-1px) rotate(-2deg);
+  }
+  66% {
+    transform: translateY(1px) rotate(2deg);
+  }
+}
+body:hover .letra {
+  animation: bounce 0.6s;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  25% {
+    transform: rotateX(20deg) translateY(2px) rotate(-3deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(3deg) scale(1.1);
+  }
+}
+
+.letra:nth-child(4n) {
+  color: hsl(50, 75%, 55%);
+  text-shadow: 1px 1px hsl(50, 75%, 45%), 2px 2px hsl(50, 45%, 45%),
+    3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%);
+}
+.letra:nth-child(4n-1) {
+  color: hsl(200, 45%, 55%);
+  text-shadow: 1px 1px hsl(200, 45%, 45%), 2px 2px hsl(200, 45%, 45%),
+    3px 3px hsl(200, 45%, 45%), 4px 4px hsl(200, 45%, 45%);
+}
+.letra:nth-child(4n-2) {
+  color: hsl(160, 35%, 60%);
+  text-shadow: 1px 1px hsl(160, 25%, 50%), 2px 2px hsl(160, 25%, 50%),
+    3px 3px hsl(160, 25%, 50%), 4px 4px hsl(160, 25%, 50%);
+}
+.letra:nth-child(4n-3) {
+  color: hsl(40, 65%, 60%);
+  text-shadow: 1px 1px hsl(40, 45%, 50%), 2px 2px hsl(40, 45%, 50%),
+    3px 3px hsl(40, 45%, 50%), 4px 4px hsl(40, 45%, 50%);
+}
+
+.logo .letra:nth-child(2) {
+  animation-delay: 0.05s;
+}
+.logo .letra:nth-child(3) {
+  animation-delay: 0.1s;
+}
+.logo .letra:nth-child(4) {
+  animation-delay: 0.15s;
+}
+.logo .letra:nth-child(5) {
+  animation-delay: 0.2s;
+}
+.logo .letra:nth-child(6) {
+  animation-delay: 0.25s;
+}
+.logo .letra:nth-child(7) {
+  animation-delay: 0.3s;
+}
+.logo .letra:nth-child(8) {
+  animation-delay: 0.35s;
+}
+.logo .letra:nth-child(9) {
+  animation-delay: 0.4s;
+}
+.logo .letra:nth-child(10) {
+  animation-delay: 0.45s;
+}
+.logo .letra:nth-child(11) {
+  animation-delay: 0.5s;
+}
+.logo .letra:nth-child(12) {
+  animation-delay: 0.55s;
+}
+.logo .letra:nth-child(13) {
+  animation-delay: 0.6s;
+}
+.logo .letra:nth-child(14) {
+  animation-delay: 0.65s;
+}

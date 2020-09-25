@@ -1,5 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
-import ChecheffApp from './ChecheffApp';
+import ChechefApp from './ChechefApp';
 
-ReactDOM.render(<ChecheffApp />, document.getElementById('root'));
+ReactDOM.render(<ChechefApp />, document.getElementById('root'));
