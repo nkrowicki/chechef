@@ -25,19 +25,19 @@ const LoginScreen = () => {
 
         <div className={styles.form}>
           <img
-            className={`${styles.pointer}`}
+            className={`${styles.pointer} ${styles.image}`}
             src={Google}
             onClick={handleGoogleLogin}
           />
 
-          {/* <input type="email" name="email" placeholder="Email" /> */}
-          {/* <input type="password" name="password" placeholder="Password" /> */}
+          {/* <input classname={styles.input} type="email" name="email" placeholder="Email" /> */}
+          {/* <input classname={styles.input} type="password" name="password" placeholder="Password" /> */}
 
-          <button onClick={handleGoogleLogin} className={`${styles.pointer}`}>
+          <button onClick={handleGoogleLogin} className={`${styles.pointer} ${styles.btn}`}>
             Sign in with Google
           </button>
 
-          <a target="_blank" rel="noreferrer" href="https://www.google.com/">
+          <a className={styles.link} target="_blank" rel="noreferrer" href="https://www.google.com/">
             Create account (Google Site)
           </a>
         </div>

@@ -1,12 +1,4 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #eeeeee;
-}
-
-img {
+.image {
   display: block;
   width: 90px;
   padding-top: 40px;
@@ -47,7 +39,7 @@ img {
   align-items: center;
 }
 
-input {
+.input {
   border-radius: 100px;
   padding: 10px 15px;
   width: 50%;
@@ -57,7 +49,7 @@ input {
   margin: 20px auto 20px auto;
 }
 
-button {
+.btn {
   border-radius: 100px;
   border: none;
   background: #719be6;
@@ -73,16 +65,16 @@ button {
   }
 }
 
-a {
+.link {
   text-align: center;
   color: #719be6;
   text-decoration: none;
   padding: 5px;
   display: inline-block;
-}
-
-a:hover {
-  text-decoration: underline;
+  
+  &:hover{
+    text-decoration: underline;
+  }
 }
 
 .pointer {

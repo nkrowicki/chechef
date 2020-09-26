@@ -2,7 +2,7 @@ import React from "react";
 import { Provider } from "react-redux";
 import store from './store/store'
 
-import "./styles/styles.scss";
+import "./ChecheffApp.module.scss";
 import AppRouter from "./routers/AppRouter";
 // import styles from "./ChechefApp.module.scss";
 

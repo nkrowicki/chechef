@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24px"
+   height="24px"
+   viewBox="0 0 24 24"
+   id="_003_ECOMMERCE_03"
+   data-name="003_ECOMMERCE_03"
+   version="1.1"
+   sodipodi:docname="finance-currency-dollar-svgrepo-com.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="785"
+     inkscape:window-height="480"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="_003_ECOMMERCE_03" />
+  <title
+     id="title2">003_099</title>
+  <path
+     d="m 12.071186,23.118644 a 1.0959741,1.0959741 0 0 1 -1.09661,-1.09661 V 2.2830509 a 1.0966102,1.0966102 0 0 1 2.19322,0 V 22.022034 a 1.0959741,1.0959741 0 0 1 -1.09661,1.09661 z"
+     style="fill:#ffffff;stroke-width:1.09661019"
+     id="path4"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 12.071186,13.249152 c -4.1197885,0 -6.5796606,-1.845178 -6.5796606,-4.9347452 0,-3.0895676 2.4598721,-4.9347458 6.5796606,-4.9347458 a 7.0428801,7.0428801 0 0 1 5.860011,2.6697743 1.0969303,1.0969303 0 0 1 -1.814123,1.2336864 4.9317191,4.9317191 0 0 0 -4.045888,-1.7102403 c -2.001533,0 -4.3864403,0.4754792 -4.3864403,2.7415254 0,2.2660462 2.3849073,2.7415252 4.3864403,2.7415252 a 1.0966102,1.0966102 0 0 1 0,2.19322 z"
+     style="fill:#ffffff;stroke-width:1.09661019"
+     id="path6"
+     inkscape:connector-curvature="0" />
+  <path
+     d="M 12.071186,20.925424 A 7.0425073,7.0425073 0 0 1 6.2068881,18.249223 1.0963251,1.0963251 0 0 1 8.0210103,17.01773 4.9320481,4.9320481 0 0 0 12.071186,18.732203 c 2.001533,0 4.386441,-0.475479 4.386441,-2.741525 0,-2.266046 -2.384908,-2.741526 -4.386441,-2.741526 a 1.0966102,1.0966102 0 0 1 0,-2.19322 c 4.119789,0 6.579661,1.845178 6.579661,4.934746 0,3.089567 -2.459872,4.934746 -6.579661,4.934746 z"
+     style="fill:#ffffff;stroke-width:1.09661019"
+     id="path8"
+     inkscape:connector-curvature="0" />
+</svg>
