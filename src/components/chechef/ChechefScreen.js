@@ -1,11 +1,20 @@
-import React from 'react'
+import React from "react";
+import { useDispatch } from "react-redux";
+import { startLogout } from "../../actions/auth";
 
 const ChechefScreen = () => {
-    return (
-        <div>
-            <h1>ChechefScreen</h1>
-        </div>
-    )
-}
+  const dispatch = useDispatch();
 
-export default ChechefScreen
+  const handleLogout = (e) => {
+    dispatch(startLogout());
+  };
+
+  return (
+    <div>
+      <h1>ChechefScreen</h1>
+      <button onClick={handleLogout}>Logout</button>
+    </div>
+  );
+};
+
+export default ChechefScreen;

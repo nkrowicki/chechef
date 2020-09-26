@@ -2,10 +2,18 @@ import React from "react";
 import styles from "./LoginScreen.module.scss";
 import Google from "../../images/google.png";
 import Logo from "../logo/Logo";
+import { useDispatch } from "react-redux";
+import { startGoogleLogin } from "../../actions/auth";
 
 const LoginScreen = () => {
-  const handleLogin = (e) => {
+
+  const dispatch = useDispatch();
+
+  const handleGoogleLogin = (e) => {
     e.preventDefault();
+
+    dispatch(startGoogleLogin());
+
   };
 
   return (
@@ -19,13 +27,13 @@ const LoginScreen = () => {
           <img
             className={`${styles.pointer}`}
             src={Google}
-            onClick={handleLogin}
+            onClick={handleGoogleLogin}
           />
 
           {/* <input type="email" name="email" placeholder="Email" /> */}
           {/* <input type="password" name="password" placeholder="Password" /> */}
 
-          <button onClick={handleLogin} className={`${styles.pointer}`}>
+          <button onClick={handleGoogleLogin} className={`${styles.pointer}`}>
             Sign in with Google
           </button>
 

@@ -3,13 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDoiUQkVN9c8qDCbnlNcwGwFkjvsx1ibbY",
-    authDomain: "checheff-7cd78.firebaseapp.com",
-    databaseURL: "https://checheff-7cd78.firebaseio.com",
-    projectId: "checheff-7cd78",
-    storageBucket: "checheff-7cd78.appspot.com",
-    messagingSenderId: "681192043366",
-    appId: "1:681192043366:web:e185410e13109732fccea7"
+    apiKey: "AIzaSyAqlRNr2dG89OKFXe99M_HylwnGACzgF8Q",
+    authDomain: "che-chef.firebaseapp.com",
+    databaseURL: "https://che-chef.firebaseio.com",
+    projectId: "che-chef",
+    storageBucket: "che-chef.appspot.com",
+    messagingSenderId: "694293531512",
+    appId: "1:694293531512:web:3a4b02de8a6a3c86f7568d",
+    measurementId: "G-E0VGQWQRZS"
   };
 
   // Initialize Firebase
