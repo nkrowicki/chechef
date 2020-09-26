@@ -1,6 +1,6 @@
 .image {
   display: block;
-  width: 90px;
+  width: 100px;
   padding-top: 40px;
   margin: auto;
   box-shadow: 0 5px 10px -7px #333333;
@@ -170,5 +170,20 @@ hr {
     border-left: none;
     border-top: 1px solid #ddd;
     margin-top: 30px;
+  }
+}
+
+.by {
+  margin-top: 20px;
+  font-size: small;
+
+  text-align: center;
+  color: #719be6;
+  text-decoration: none;
+  padding: 5px;
+  display: inline-block;
+  
+  &:hover{
+    text-decoration: underline;
   }
 }

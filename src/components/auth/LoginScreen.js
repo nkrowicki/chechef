@@ -40,6 +40,9 @@ const LoginScreen = () => {
           <a className={styles.link} target="_blank" rel="noreferrer" href="https://www.google.com/">
             Create account (Google Site)
           </a>
+          <a className={styles.by} target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nahuel-krowicki-991a95106/">
+            By Nahuel Krowicki
+          </a>
         </div>
       </div>
     </div>

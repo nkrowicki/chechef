@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./Sidebar.module.scss";
 import chefIcon from "../../../../images/icons/chefIcon.svg";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { startLogout } from "../../../../actions/auth";
 
 
-const Sidebar = ({ displayName = "Nahuel Krowicki" }) => {
+const Sidebar = () => {
 
   const dispatch = useDispatch();
+  const {name} = useSelector(state => state.auth);
 
   const handleLogout = e => {
     dispatch(startLogout());
@@ -18,7 +19,7 @@ const Sidebar = ({ displayName = "Nahuel Krowicki" }) => {
       <div className={styles.smartphoneMenuTrigger}></div>
       <header className={styles.avatar}>
         <img src={chefIcon} />
-        <h2>{displayName}</h2>
+        <h2>{name}</h2>
       </header>
       <ul>
         {/* <li tabIndex="0" className={styles.iconDashboard}>

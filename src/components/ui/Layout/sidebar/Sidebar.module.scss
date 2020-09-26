@@ -86,9 +86,9 @@ $icon-url-logout: $icon-url-base + "logout.svg";
   }
   
   @media screen and (max-width: 900px) and (min-width: 400px) {
-    body {
-      padding-left: $menu-width-tablet;
-    }
+    // body {
+    //   padding-left: $menu-width-tablet;
+    // }
     .menu {
       width: $menu-width-tablet;
   
@@ -165,9 +165,9 @@ $icon-url-logout: $icon-url-base + "logout.svg";
   }
   
   @media screen and (max-width: 400px) {
-    body {
-      padding-left: 0;
-    }
+    // body {
+    //   padding-left: 0;
+    // }
   
     .menu {
       width: $menu-width-smartphone;
