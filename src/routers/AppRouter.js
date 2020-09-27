@@ -5,7 +5,8 @@ import { firebase } from "../firebase/firebase-config";
 import PublicRoute from "./PublicRoute";
 import AuthRouter from "./AuthRouter";
 import PrivateRoute from "./PrivateRoute";
-import ChechefScreen from "../components/chechef/ChechefScreen";
+// import ChechefScreen from "../components/chechef/ChechefScreen";
+import ChechefRouter from './ChechefRouter';
 
 import Spinner from "../components/spinner/Spinner";
 
@@ -49,9 +50,8 @@ const AppRouter = () => {
             isAuthenticated={isLoggedIn}
           />
           <PrivateRoute
-            exact
-            path="/"
-            component={ChechefScreen}
+            path="/app"
+            component={ChechefRouter}
             isAuthenticated={isLoggedIn}
           />
           <Redirect to={"/auth/login"} />

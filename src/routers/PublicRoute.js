@@ -12,7 +12,7 @@ const PublicRoute = ({
         <Route {...rest}
             component={ (props) => (
                 (isAuthenticated)
-                ? <Redirect to="/" />
+                ? <Redirect to="/app" />
                 : (<Component {...props} />)
             )
             }

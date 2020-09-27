@@ -11,7 +11,7 @@ const AuthRouter = () => {
                     path='/auth/login'
                     component={LoginScreen}
                     />
-                <Redirect to='/' />
+                <Redirect to='/app' />
             </Switch>
         </div>
     )
